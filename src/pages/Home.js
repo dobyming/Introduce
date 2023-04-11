@@ -5,13 +5,13 @@ import EmailIcon from '@material-ui/icons/Email';
 import GithubIcon from '@material-ui/icons/GitHub';
 import Link from "@material-ui/core/Link";
 import '../styles/Home.css'
-
+import 'animate.css';
 
 const Home = () => {
     return (
         <div className='home'>
             <div className='about'>
-                <h2>Hi, my name is Damin</h2>
+                <h2 class="animate__animated animate__fadeInLeft">Hi, my name is Damin</h2>
                 <div className="prompt">
                     <p>A Front-End developer who is constantly enjoying learning</p>
                     <Link href = "https://www.linkedin.com/in/damin-kim/" target="_blank">
