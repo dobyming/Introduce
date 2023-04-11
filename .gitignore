@@ -13,7 +13,6 @@
 
 # deployment
 firebase.json
-.firebase
 
 # misc
 .DS_Store
